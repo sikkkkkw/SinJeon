@@ -1,21 +1,19 @@
-import Footer from "./ccc/Footer";
-import Franchisee from "./ccc/Franchisee";
-import Head from "./ccc/Head";
-import Head2 from "./ccc/Head2";
-import Head3 from "./ccc/Head3";
-import Head4 from "./ccc/Head4";
-import Img from "./ccc/Img";
-import Textpage from "./ccc/Textpage";
-import Textpage2 from "./ccc/Textpage2";
-import Textpage3 from "./ccc/Textpage3";
-import Textpage4 from "./ccc/Textpage4";
+import Footer from "./pages/Footer"
+import Franchisee from "./pages/Franchisee";
+import Head from "./pages/Head";
+import Head2 from "./pages/Head2";
+import Head4 from "./pages/Head4";
+import Img from "./pages/Img";
+import Textpage from "./pages/Textpage";
+import Textpage2 from "./pages/Textpage2";
+import Textpage3 from "./pages/Textpage3";
+import Textpage4 from "./pages/Textpage4";
 
 function App() {
   return (
     <div className="flex flex-col">
       <Head/>
       <Head2/>
-      <Head3/>
       <Head4/>
       <Textpage/>
       <Textpage2/>
