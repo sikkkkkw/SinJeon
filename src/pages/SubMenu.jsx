@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function Head2() {
+export default function SubMenu() {
   const [activeMenu, setActiveMenu] = useState('');
 
   const handleMouseEnter = (menu) => {
